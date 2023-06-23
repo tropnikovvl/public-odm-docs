@@ -95,6 +95,14 @@
     "isReadOnly": true
   },
   {
+    "isRequired": true,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:transcriptomicsParent",
+    "name": "Data Class",
+    "isReadOnly": true,
+    "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute."
+  },
+  {
     "dictionaryName": "Sequencing Platforms",
     "dataType": "genestack:transcriptomicsParent",
     "isRequired": false,
@@ -167,11 +175,43 @@
     "isReadOnly": false
   },
   {
+    "isRequired": false,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:transcriptomicsParent",
+    "name": "Features (string)",
+    "isReadOnly": true,
+    "description": "If your dataset contains multiple columns for feature, this parameter lists columns with text content (e.g., Gene Name). Please do not remove this attribute."
+  },
+  {
+    "isRequired": false,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:transcriptomicsParent",
+    "name": "Features (numeric)",
+    "isReadOnly": true,
+    "description": "If your dataset contains multiple columns for feature, this parameter lists columns with numeric content (e.g., Retention Time, M/Z ratio). Please do not remove this attribute."
+  },
+  {
+    "isRequired": false,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:transcriptomicsParent",
+    "name": "Values (numeric)",
+    "isReadOnly": true,
+    "description": "If your dataset contains multiple measurement or value types for each item (like a sample, library, or preparation), this parameter lists these (e.g. Intensity, Fold Change, p-value). Please do not remove this attribute."
+  },
+  {
     "dataType": "genestack:facsParent",
     "isRequired": true,
     "metainfoType": "com.genestack.api.metainfo.StringValue",
     "name": "genestack:accession",
     "isReadOnly": true
+  },
+  {
+    "isRequired": true,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:facsParent",
+    "name": "Data Class",
+    "isReadOnly": true,
+    "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute."
   },
   {
     "dataType": "genestack:facsParent",
@@ -365,6 +405,14 @@
     "metainfoType": "com.genestack.api.metainfo.StringValue",
     "name": "genestack:accession",
     "isReadOnly": true
+  },
+  {
+    "isRequired": true,
+    "metainfoType": "com.genestack.api.metainfo.StringValue",
+    "dataType": "genestack:genomicsParent",
+    "name": "Data Class",
+    "isReadOnly": true,
+    "description": "A mandatory field specifying the exact type of data you have uploaded. Please do not remove this attribute."
   },
   {
     "dictionaryName": "Sequencing Platforms",
