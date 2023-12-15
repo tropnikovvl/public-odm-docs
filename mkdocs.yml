@@ -1,12 +1,12 @@
 site_name: Public ODM Docs
 repo_name: tropnikovvl/public-odm-docs
 repo_url: https://github.com/tropnikovvl/public-odm-docs
-edit_uri: edit/main/docs/
+edit_uri: edit/develop/
 strict: true
 
 nav:
   - Home:
-    - Welcome: README.md
+    - Welcome: index.md
   - Packages to install:
     - Genestack python client: 00_Packages_to_install/1_Genestack_python_client/README.md
     - Genestack auxiliary scripts: 00_Packages_to_install/2_Genestack_auxiliary_scripts/README.md
