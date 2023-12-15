@@ -1,2 +1,0 @@
-Name	Experimental Platform	Data Processing Method	Scale	Genome Version	Source	Data Species	Source Link
-SLE.matrix.gct	Illumina NextSeq 550	Bowtie2, RSEM	TPM	GRCh37	RNA-Seq	Transcriptomics

@@ -1,7 +1,7 @@
 site_name: Public ODM Docs
 repo_name: tropnikovvl/public-odm-docs
 repo_url: https://github.com/tropnikovvl/public-odm-docs
-edit_uri: edit/develop/
+edit_uri: edit/develop/docs/
 strict: true
 
 nav:
@@ -15,35 +15,35 @@ nav:
 
 plugins:
   - search
-theme:
-  name: material
-  language: en
-  # favicon: assets/images/fav.svg
-  palette:
-    primary: indigo
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - navigation.tabs
+# theme:
+#   name: material
+#   language: en
+#   # favicon: assets/images/fav.svg
+#   palette:
+#     primary: indigo
+#     accent: indigo
+#   font:
+#     text: Roboto
+#     code: Roboto Mono
+#   features:
+#     - navigation.tabs
   # custom_dir: docs/theme_overrides
 # Extensions
-markdown_extensions:
-  - admonition
-  - attr_list
-  - codehilite
-  - pymdownx.inlinehilite
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: true
-extra_css:
-  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
-extra_javascript:
-  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js
+# markdown_extensions:
+#   - admonition
+#   - attr_list
+#   - codehilite
+#   - pymdownx.inlinehilite
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.superfences
+#   - pymdownx.tabbed
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - toc:
+  #     permalink: true
+# extra_css:
+#   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css
+# extra_javascript:
+#   - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js
